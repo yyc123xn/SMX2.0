@@ -1,0 +1,319 @@
+.head
+{
+    height:120px;
+    width: 100%;
+    background-color: rgb(86,168,166);
+    left:0;
+    position: absolute;
+
+}
+.main
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245,245,245);
+    top:155px;
+    left:0;
+    position: absolute;
+}
+.header
+{
+    height: 120px;
+    width: 68%;
+    background-image: url("../img/headback.png");
+    background-size: cover;
+    position: absolute;
+    margin: 0 auto;
+    top: 0; left:0; bottom: 0; right: 0;
+}
+.content
+{
+    height: 570px;
+    width: 68%;
+    background-color:rgb(245,245,245);
+    position: absolute;
+    margin: 0 auto;
+    top: 0; left:0; bottom: 0; right: 0;
+}
+
+.back211
+{
+    width: 220px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left:0px;
+}
+.back212
+{
+    width: 757px;
+    height: 569px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left:243px;
+}
+.ziliao
+{
+    width:572px;
+    height: 220px;
+    background:none;
+    position: absolute;
+    top:51px;
+    left: 94px;
+}
+
+.photo
+{
+    width:102px;
+    height: 120px;
+    background:rgb(42,180,185);
+    position: absolute;
+    top:41px;
+    left: 565px;
+}
+.pbutton11
+{
+    width:105px;
+    height:40px;
+    position: absolute;
+    top:202px;
+    left: 532px;
+}
+.pbutton12
+{
+    width:105px;
+    height:40px;
+    position: absolute;
+    top:202px;
+    left: 637px;
+}
+.pbutton21
+{
+    width:105px;
+    height:40px;
+    position: absolute;
+    top:370px;
+    left: 637px;
+}
+
+.line1
+{
+    width:719px;
+    height:3px;
+    background:none;
+    position: absolute;
+    top:239px;
+    left:19px;
+}
+.line2
+{
+    width:719px;
+    height:3px;
+    background:none;
+    position: absolute;
+    top:407px;
+    left:19px;
+}
+.idlogin
+{
+    width:438px;
+    height: 150px;
+    background:none;
+    position: absolute;
+    top:253px;
+    left: 51px;
+}
+.headphoto
+{
+    width:91px;
+    height:88px;
+    background:none;
+    position: absolute;
+    top:15px;
+    left: 70px;
+}
+.headpassage
+{
+    width:307px;
+    height:56px;
+    background:none;
+    position: absolute;
+    top:33px;
+    left: 198px;
+}
+.headlogo
+{
+    width:119px;
+    height:100px;
+    background:none;
+    position:absolute;
+    top:10px;
+    left: 85%;
+}
+.idphoto1
+{
+    width:124px;
+    height: 85px;
+    background:none;
+    position: absolute;
+    top:50px;
+    left:19px;
+}
+.idphoto2
+{
+    width:124px;
+    height: 85px;
+    background:none;
+    position: absolute;
+    top:50px;
+    left:196px;
+}
+.button
+{
+    border: 2px solid rgb(137,191,219);
+    background-color: rgb(137,191,219);
+    border: none;
+    color: white;
+    width: 105px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: STHeitSC , Light, sans-serif;
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.button1
+{
+    border: 2px solid rgb(137,191,219);
+    background-color:rgb(137,191,219);
+    color: white;
+
+}
+
+.button1:hover
+{
+    background-color:white;
+    color: black;
+}
+.button2
+{
+    border: 2px solid rgb(137,191,219);
+    background-color:white;
+    color: black;
+
+}
+
+.button2:hover
+{
+    background-color:rgb(137,191,219);
+    color: white;
+}
+.line
+{
+    width:722px;
+    height:3px;
+    background:rgb(137,191,219);
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.main li
+{
+    float: none;
+    list-style-image:url(../img/li.png);
+    font-family:STHeitSC,Light,sans-serif;
+    line-height:32px;
+    font-size:18px;
+    height: 30px;
+}.main a
+ {
+     color: black;
+ }
+p1
+{
+    font-size:24px;
+    font-family: STHeitSC Medium,sans-serif;
+    color: white;
+}
+p2
+{
+    font-size:14px;
+    font-family: STHeitSC Medium, Times,sans-serif;
+    color: white;
+}
+div.img
+{
+    border: 1px solid rgb(137,191,219);;
+}
+.s-left{
+    width:220px; height:350px; background:white; float:left;
+}
+.guide{
+    width:220px; height:37px;
+    margin-top:6px; margin-bottom:30px;
+    text-align:center; line-height:37px;
+    font-weight:bold;
+}
+.guide:hover{
+    background:#D0E6E4;
+    cursor:pointer;
+    border-left: 5px solid #81B2B0;
+}
+.guide:hover a{
+    color:#78AAA9;
+}
+.s-right{
+    margin-left:240px; width:auto;
+}
+.right-guide{
+    width:100%; height:40px; background:white;
+}
+.right-guide li{
+    list-style:none; font-weight:bold; float:left;
+    text-align:center; line-height:40px;
+    margin-left:50px;
+}
+.right-guide li:hover a{
+    color:#78AAA9;
+}
+.right-content{
+    width:100%; overflow-y:auto;
+    margin-top:10px;
+}
+.box{
+    width:100%; height:200px; background:white; margin-bottom:15px;
+}
+.box img{
+    float:left; width:262px; height:161px; margin-top:24px; margin-left:15px;
+}
+.course-title{
+    font-weight:bold; font-size:25px; height:30px; width:100px;
+    text-align: center; line-height:30px; float:left;
+    margin-left:100px; margin-top:25px;
+}
+.course-info{
+    float:left; margin-top:70px; margin-left:-100px;
+}
+.course-info a{
+    font-size:15px; color:lightgray;
+}
+.pro-bac{
+    width:300px; height:10px; background:lightgray; float:left;
+    margin-left:100px; margin-top:30px;
+}
+.pro-fro{
+    width:100px; height:10px; background:#81B2B0; float:left;
+    margin-left:100px; margin-top:-10px;
+}
+.course-time{
+    float:left; margin-left:100px; margin-top:2px;
+}
+.course-time a{
+    font-size:10px; color:lightgray;
+}

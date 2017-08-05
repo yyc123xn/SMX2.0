@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/img/01.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/img/02.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/img/03.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/img/2.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/img/bridge.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/img/fang.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/img/headback.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/img/headlogo.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/img/headphoto.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/img/li.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/img/touxiang.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/javascripts/jquery.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public/stylesheets/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/users.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/error.ejs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/navigation.ejs" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

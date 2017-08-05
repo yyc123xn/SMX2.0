@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>尚名校</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <%include navigation.ejs%>
+  <div class="second">
+    <div class="middle">
+      <div class="s_logo">
+        <img src="img/2.png" height="91px" width="222px"></div>
+      <div class="s_inputground">
+               <SPAN class="u_logo">
+                   <img src="img/fang.png" width="20px" height="20px">
+               </SPAN>
+        <INPUT class="ipt" type="text" placeholder="课程名/课序号/教师名" value="">
+        <button type="submit" class="s_button">搜索</button>
+
+      </div>
+    </div>
+  </div>
+  <div class="third">
+    <div class="contain">
+      <div class="third_head"><a href="#">全部课程分类</a></div>
+    </div>
+  </div>
+  <div class="fourth">
+    <div class="contain">
+      <div class="course_bar">
+        <ul class="class-sort">
+          <li><div class="course_bar_entry"> 热门课程</div></li>
+          <li><div class="course_bar_entry">最新课程</div></li>
+          <li><div class="course_bar_entry">高中课程</div></li>
+          <li><div class="course_bar_entry">初中课程</div></li>
+          <li><div class="course_bar_entry">小学课程</div></li>
+          <li><div class="course_bar_entry">更多</div></li>
+        </ul>
+
+      </div>
+      <div class="tab">
+        <img name="pic" src="img/01.jpg" width="100%" height="100%"/>
+        <img name="pic" src="img/02.jpg" width="100%" height="100%"/>
+        <img name="pic" src="img/03.jpg" width="100%" height="100%"/>
+      </div>
+      <div class="courses">
+        <div class="courses_head">
+          <ul>
+            <li><a href="#">高考冲刺班></a></li>
+            <li><a href="#">中考保过班></a></li>
+            <li><a href="#">一对一辅导></a></li>
+          </ul>
+        </div>
+        <div class="courses_bar">
+          <ul>
+            <li><a href="#">高中</a>
+            </li>
+            <li><a href="#">初中</a></li>
+            <li><a href="#">小学</a></li>
+          </ul>
+        </div>
+        <div class="courses_body" style=" position: absolute;top: 80px;left: 80px;">
+          <ul>
+            <li>高中语文</li>
+            <li>高中数学</li>
+            <li>高中英语</li>
+            <li>高中物理</li>
+            <li>高中化学</li>
+            <li>高中生物</li>
+          </ul>
+        </div>
+        <div class="courses_body" style=" position: absolute;top: 170px;left: 80px;">
+          <ul>
+            <li>初中语文</li>
+            <li>初中数学</li>
+            <li>初中英语</li>
+            <li>初中物理</li>
+            <li>初中化学</li>
+            <li>初中生物</li>
+          </ul>
+        </div>
+        <div class="courses_body" style=" position: absolute;top: 250px;left: 80px;">
+          <ul>
+            <li>小学语文</li>
+            <li>小学数学</li>
+            <li>小学英语</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fifth">
+    <div class="contain">
+      <div class="under">
+        <div class="left">
+          <div class="rec"></div>
+          <h4>新闻资讯</h4>
+
+          <div class="four-rec">
+            <div class="s-rec"></div>
+            <div class="s-rec"></div>
+            <div class="s-rec"></div>
+            <div class="s-rec"></div>
+          </div>
+
+          <ul>
+            <li class="title"><a href="#">习近平对司法体制改革作出重要指示引强烈反应</a></li>
+            <li class="title"><a href="#">印高官称中印从未划定任何边界 外交部驳斥</a></li>
+            <li class="title"><a href="#">甘肃官场震荡：前书记被查 数名官员非正常死亡</a></li>
+            <li class="title"><a href="#">林志玲现身医院被疑修脸 经纪人坦诚：打美白针</a></li>
+            <li class="title"><a href="#">宋仲基宋慧乔被曝日本举行订婚派对 饭店里献花</a></li>
+          </ul>
+        </div>
+
+        <div class="right">
+          <div class="rec"></div>
+          <h4>更多信息</h4>
+
+          <div class="four-rec">
+            <div class="s-rec"></div>
+            <div class="s-rec"></div>
+            <div class="s-rec"></div>
+            <div class="s-rec"></div>
+          </div>
+
+          <ul>
+            <li class="title"><a href="#">习近平对司法体制改革作出重要指示引强烈反应</a></li>
+            <li class="title"><a href="#">印高官称中印从未划定任何边界 外交部驳斥</a></li>
+            <li class="title"><a href="#">甘肃官场震荡：前书记被查 数名官员非正常死亡</a></li>
+            <li class="title"><a href="#">林志玲现身医院被疑修脸 经纪人坦诚：打美白针</a></li>
+            <li class="title"><a href="#">宋仲基宋慧乔被曝日本举行订婚派对 饭店里献花</a></li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="under_footer"></div>
+    </div>
+  </div>
+  <div class="footer">Copyright © 2017 <strong>尚名校</strong>&nbsp;
+    <strong>主页面初稿</strong> All Rights Reserved.</div>
+  </body>
+<script>
+  window.onload = function(){
+
+    var images = document.getElementsByName('pic');
+    var pos = 0;
+    var len = images.length;
+
+    setInterval(function(){
+
+      images[pos].style.display = 'none';
+      pos = ++pos == len ? 0 : pos;
+      images[pos].style.display = 'inline';
+
+    },3000);
+
+  };
+</script>
+<script src="javascripts/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".courses").hide();
+    $(".course_bar_entry").hover(function(){
+      $(".courses").show();
+    },function(){
+      $(".courses").hide();
+    })
+  })
+</script>
